@@ -1,0 +1,47 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+html {
+  background:  url(https://i2.wp.com/windowscustomization.com/wp-content/uploads/2018/09/plexus1.gif?fit=750%2C365&quality=80&strip=all&ssl=1) no-repeat center center fixed;
+  background-size: cover;
+}
+h1, h2, h3, h4, p{
+  /*font-weight: bold;*/
+  color: #0f0f0f;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: .5em;
+}
+body {
+    height: 100%;
+    background:white;
+}
+
+.panel-transparent {
+  background: none;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(122, 130, 136, 0.2)!important;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(46, 51, 56, 0.2)!important;
+}
+
+.jumbotron{
+    background-color: white;
+    margin: 10%;
+}
+
+.img-center {
+  display:block;
+  margin:auto;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .jumbotron{
+    background-color: white;
+    margin: 0%;
+    padding: 0%;
+  }
+}

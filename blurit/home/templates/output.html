@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block mid %}
+
+<div class="jumbotron" style="text-align: center">
+
+  <h1>Download Your Image-</h1>
+  <h4>Just click on image to start download</h4>
+  <div class="row" style="align-items: center">
+    <div class="col s10">
+        <a href="{{ original }}" download>
+          <img class="img-center" src="{{ original }}" width="100%">
+        </a>
+    </div>
+    <div class="col s10">
+        <a href="{{ blur }}" download>
+          <img class="img-center" src="{{ blur }}" width="100%">
+        </a>
+    </div>
+  </div>
+    <br>
+    <form method="get" action="/">
+        <button class="btn btn-primary" href="/" type="submit">Go Back to Home</button>
+    </form>
+</div>
+
+{% endblock %}
